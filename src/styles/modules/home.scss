@@ -1,0 +1,56 @@
+.home-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3rem;
+    justify-content: center;
+}
+
+.home-card-text {
+    text-align: justify;
+}
+
+.home-text {
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.home-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    background-image: url("../public/images/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.hero-title {
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #ecdada, 0 0 5px #0000FF;
+    margin: 2rem;
+}
+
+.pet-card {
+    margin-right: 1rem;
+}

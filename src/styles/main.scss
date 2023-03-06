@@ -1,0 +1,69 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+@import './modules/about.scss';
+@import './modules/home.scss';
+@import './modules/cat.scss';
+@import './modules/dog.scss';
+@import './modules/lingkungan.scss';
+@import './modules/catHealth.scss';
+
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3rem;
+    justify-content: center;
+}
+
+.home-card-text{
+    text-align: justify;
+}
+
+.home-text{
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.home-img img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.pet-card{
+    margin-right: 1rem;
+}
+
+main {
+    padding: 32px;
+    flex: 1;
+    padding-top: 4rem;
+  }
+  
+.mainContent {
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+footer {
+    text-align: center;
+
+  }
+  
+  footer p {
+    color: #fff;
+
+  }

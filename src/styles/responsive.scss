@@ -1,0 +1,44 @@
+  @media screen and (min-width: 499px) {
+      .home-card {
+          flex-direction: column;
+      }
+  }
+
+  @media screen and (max-width: 499px) {
+    .home-card {
+        flex-direction: column;
+    }
+}
+
+
+  @media screen and (min-width: 650px) {
+    .home-card {
+        flex-direction: column;
+
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    .home-card {
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .home-card {
+        flex-direction: column;
+
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .home-card {
+        flex-direction: row;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+      
+  }
+
+  
